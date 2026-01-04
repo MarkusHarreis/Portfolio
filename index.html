@@ -8,6 +8,53 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!--- Header --->
+    <header class="menu">
+      <nav class="burgermenu-container">
+        <!-- Burgerknap -->
+        <button class="burgermenu-knap" type="button" aria-label="Åben menu">
+          <img
+            src="content/svg/burgermenu.svg"
+            alt="burger menu knap"
+            class="burgermenu-icon"
+          />
+        </button>
+      </nav>
+
+      <!-- Logo -->
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="content/svg/PortLogo.svg" alt="logo" class="logo-icon" />
+        </a>
+      </div>
+    </header>
+    <!-- Menuen - lige under header -->
+    <div class="slide-nav" id="site-slide-nav" aria-hidden="true">
+      <!-- Mørk / sløret overlay på resten af siden når menu er åben -->
+      <div class="overlay-bg" data-close></div>
+
+      <!-- Selve menu content -->
+      <nav class="slidemenu-content" aria-label="Primær navigation">
+        <ul>
+          <li><a href="T01.html">T01</a></li>
+          <li><a href="T02.html">T02</a></li>
+          <li><a href="T03.html">T03</a></li>
+          <li><a href="T04.html">T04</a></li>
+          <li>
+            <a href="T05.html">TO5</a>
+          </li>
+          <li><a href="about.html">OM MIG</a></li>
+        </ul>
+      </nav>
+    </div>
+    <script defer src="javascript/general.js"></script>
+  </body>
 </html>

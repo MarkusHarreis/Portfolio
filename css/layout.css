@@ -1,0 +1,105 @@
+/* --- Header --- */
+.menu {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 14px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Burger-menu knap */
+.burgermenu-icon {
+  height: 20px;
+  width: auto;
+  margin-left: 5px;
+}
+
+/* Logo */
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-icon {
+  height: 60px;
+  width: auto;
+}
+
+/* ------------ Slide in menu ------------  */
+.slide-nav {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+/* --- Overlay på bagrund ---  */
+.slide-nav .overlay-bg {
+  /* overlay starter under headerens højde */
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: var(--menu-height, 70px);
+}
+/* --- Overlay på bagrund - active --- */
+.slide-nav.active .overlay-bg {
+  background: rgba(0, 0, 0, 0.6);
+  pointer-events: auto;
+  z-index: 10;
+}
+.slide-nav .overlay-bg {
+  pointer-events: none;
+}
+/* --- Burger knappen --- */
+.burgermenu-knap {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+/* Når menuen er åben, slider den ind*/
+.slide-nav.active .slidemenu-content {
+  transform: translateX(0);
+}
+/* --------- MENU CONTENT --------- */
+.slide-nav .slidemenu-content {
+  /* Går helt ned til skærmens bund */
+  position: fixed;
+  height: calc(100% - var(--menu-height, 70px));
+  /*  bredde af slide in menu*/
+  width: min(320px, 50%);
+  /* Skaber slide in fra venstre side */
+  transform: translateX(-100%);
+  transition: transform 0.32s cubic-bezier(0.2, 0.9, 0.28, 1);
+  background: white;
+  /* Streg mellem slut header og start menu */
+  box-shadow: 2px 0 18px rgba(0, 0, 0, 0.08);
+  /* hvor langt testen står ud mod højre */
+  padding: 22px;
+}
+/* --- Menu links inde i slide in menu --- */
+.slide-nav .slidemenu-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.slide-nav .slidemenu-content li a {
+  display: block;
+  padding: 10px 6px;
+  color: #2a2a2a;
+  text-decoration: none;
+}
+.slide-nav .slidemenu-content li a:hover {
+  color: #118743;
+}
+
+.slidemenu-content {
+  z-index: 11;
+}
