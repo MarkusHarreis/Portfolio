@@ -48,7 +48,6 @@ p {
 .grid_1-1 img {
   padding: 0px 20px;
   width: 400px;
-  border-radius: 10%;
 }
 
 .grid_1-1 a:link,
@@ -101,6 +100,7 @@ a:active {
 
   .løsning {
     width: 400px;
+    padding-top: 10px;
   }
 
   .imglær {

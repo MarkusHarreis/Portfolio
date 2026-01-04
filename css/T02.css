@@ -1,0 +1,112 @@
+main {
+  background-color: rgb(226, 225, 225);
+  padding: 20px 40px;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.6rem;
+  color: #2a2a2a;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #2a2a2a;
+}
+
+p {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #2a2a2a;
+}
+
+.læring {
+  padding: 0px 20px;
+  padding-bottom: 50px;
+}
+
+.proces {
+  padding: 0px 20px;
+  padding-bottom: 50px;
+}
+
+.løsning {
+  padding: 0px 20px;
+  padding-bottom: 50px;
+}
+
+.grid_1-1 img {
+  padding: 0px 20px;
+  width: 400px;
+}
+
+.grid_1-1 a:link,
+a:visited {
+  background-color: #f7bdbd;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1rem;
+  color: #2a2a2a;
+  border-radius: 8px;
+}
+
+.grid_1-1 a:hover,
+a:active {
+  background-color: #e1b5b5;
+}
+
+.semere {
+  margin-top: 10px;
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_1-1 img {
+    padding: 0px 20px;
+    width: 400px;
+  }
+
+  .proces {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 400px;
+    justify-self: end;
+    text-align: right;
+  }
+
+  .læring {
+    width: 400px;
+  }
+
+  .løsning {
+    width: 400px;
+  }
+
+  .imglær {
+    justify-self: end;
+  }
+
+  .imgløs {
+    justify-self: end;
+  }
+}
