@@ -1,0 +1,68 @@
+main {
+  background-color: rgb(226, 225, 225);
+}
+
+.indexLogo {
+  display: flex;
+  align-items: center; /* LODRET */
+  margin: auto;
+  padding: 30px 20px;
+  width: 400px;
+}
+
+.indexMappe {
+  display: flex;
+  align-items: center; /* LODRET */
+  margin: auto;
+  max-height: 160px;
+}
+
+.grid_p {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+.indexp {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  grid-column: 2/3;
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #2a2a2a;
+}
+
+@media (min-width: 800px) {
+  .indexLogo {
+    display: flex;
+    align-items: center; /* LODRET */
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 600px;
+  }
+
+  .indexMappe {
+    display: flex;
+    align-items: center; /* LODRET */
+    margin: auto;
+    max-height: 180px;
+  }
+
+  .grid_p {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .indexp {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    grid-column: 2/3;
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #2a2a2a;
+  }
+}
