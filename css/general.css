@@ -1,0 +1,63 @@
+/* --- Footer --- */
+
+footer {
+  background-color: #f7bdbd;
+}
+
+.footerlogo {
+  margin: auto;
+  width: 70%;
+  padding-top: 30px;
+}
+
+.contact {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #2a2a2a;
+  padding-left: 65px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.email {
+  text-decoration: none;
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  padding-left: 65px;
+  color: #2a2a2a;
+}
+
+.faceig {
+  display: flex;
+  padding-left: 65px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 20px;
+}
+
+@media (min-width: 800px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footerlogo {
+    grid-column: 1/2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contact_all {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 70%;
+  }
+}
+
+/* --- Footer slut --- */
