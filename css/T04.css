@@ -50,10 +50,6 @@ p {
   width: 400px;
 }
 
-.imglær {
-  max-width: 300px;
-}
-
 .grid_1-1 a:link,
 a:visited {
   background-color: #f7bdbd;
@@ -111,9 +107,6 @@ a:active {
 
   .imglær {
     justify-self: end;
-  }
-
-  .imgpro {
   }
 
   .imgløs {
