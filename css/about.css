@@ -1,0 +1,76 @@
+main {
+  background-color: rgb(226, 225, 225);
+  padding: 0px 30px;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: #2a2a2a;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.UD,
+.sem {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #2a2a2a;
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.portræt {
+  display: flex;
+  align-items: center; /* LODRET */
+  margin: auto;
+  height: 400px;
+  border-radius: 10%;
+  padding: 20px 0px;
+}
+
+.pud,
+.psem {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #2a2a2a;
+  margin: auto;
+  padding: 0px 30px;
+  max-width: 500px;
+  padding-bottom: 30px;
+}
+
+.psem {
+  padding-bottom: 50px;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .pud,
+  .psem {
+    max-width: 500px;
+    grid-column: 2/3;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portræt {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0;
+    height: 600px;
+  }
+}
