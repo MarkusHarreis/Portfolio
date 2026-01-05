@@ -1,5 +1,12 @@
-/* --- Footer --- */
+html {
+  font-size: 16px;
+}
 
+body {
+  font-size: 1rem;
+}
+
+/* --- Footer --- */
 footer {
   background-color: #f7bdbd;
 }
