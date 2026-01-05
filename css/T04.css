@@ -30,7 +30,7 @@ p {
   color: #2a2a2a;
 }
 
-.læring {
+.laering {
   padding: 0px 20px;
   padding-bottom: 50px;
 }
@@ -40,7 +40,7 @@ p {
   padding-bottom: 50px;
 }
 
-.løsning {
+.losning {
   padding: 0px 20px;
   padding-bottom: 50px;
 }
@@ -97,19 +97,19 @@ a:active {
     text-align: right;
   }
 
-  .læring {
+  .laering {
     width: 400px;
   }
 
-  .løsning {
+  .losning {
     width: 400px;
   }
 
-  .imglær {
+  .imglaer {
     justify-self: end;
   }
 
-  .imgløs {
+  .imglos {
     justify-self: end;
   }
 }
