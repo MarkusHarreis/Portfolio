@@ -101,17 +101,9 @@ a:active {
   .proces {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 600px;
+
     justify-self: end;
     text-align: right;
-  }
-
-  .laering {
-    width: 600px;
-  }
-
-  .losning {
-    width: 600px;
   }
 
   .imglaer {
