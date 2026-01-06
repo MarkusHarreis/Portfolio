@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(226, 225, 225);
+  padding: 20px 40px;
+}
+
+img {
+  display: flex;
+  align-items: center; /* LODRET */
+  margin: auto;
+  height: 420px;
+}
+h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: #2a2a2a;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #2a2a2a;
+}
+
+.ctabtn-2 {
+  background-color: #f7bdbd;
+  text-decoration: none;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #2a2a2a;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.knap {
+  text-align: center;
+  padding-top: 30px;
+}
