@@ -95,23 +95,17 @@ a:active {
 
   .grid_1-1 img {
     padding: 0px 20px;
-    width: 400px;
+    max-width: 400px;
   }
 
   .proces {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 600px;
     justify-self: end;
     text-align: right;
   }
 
-  .laering {
-    width: 600px;
-  }
-
   .losning {
-    width: 600px;
     padding-top: 10px;
   }
 
